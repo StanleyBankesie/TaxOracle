@@ -1,0 +1,41 @@
+@import "tailwindcss";
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.my-own-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("./assets/background.jpg");
+  margin-bottom: calc(var(--spacing) * 4);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-position: center;
+  width: 100%;
+  overflow: hidden;
+  background-size: cover;
+  height: 500px;
+}
+.navcol {
+  background-color: rgba(11, 77, 121, 0.3);
+}
+.test {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.822),
+      rgba(255, 255, 255, 0.959)
+    ),
+    url("./assets/testi.png");
+  background-size: cover;
+}
+.slide {
+  background: url("./assets/slider.jpg");
+  background-size: cover;
+}
+.vision {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("./assets/vision3.jpg");
+  background-size: cover;
+}
