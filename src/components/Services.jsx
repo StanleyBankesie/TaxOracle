@@ -71,7 +71,7 @@ const Services = () => {
             <img src={balance} alt="" />
           </div>
           <div>
-            <p>Business Structuring & Restructuring</p>
+            <p className="text-center">Business Structuring & Restructuring</p>
           </div>
         </div>
         <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-5">
@@ -79,7 +79,7 @@ const Services = () => {
             <img src={analysis} alt="" />
           </div>
           <div>
-            <p>Debt Recovery Strategies </p>
+            <p className="text-center">Debt Recovery Strategies </p>
           </div>
         </div>
         <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-5">
@@ -87,14 +87,16 @@ const Services = () => {
             <img src={business} alt="" />
           </div>
           <div>
-            <p>Budgeting & Forecasting</p>
+            <p className="text-center">Budgeting & Forecasting</p>
           </div>
         </div>
         <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-5">
           <div>
             <img src={growth} alt="" />
           </div>
-          <div>PAYE , VAT & Withholding Tax Filing</div>
+          <div>
+            <p className="text-center">PAYE , VAT & Withholding Tax Filing</p>
+          </div>
         </div>
       </div>
       <div className="mt-10 flex justify-center text-center">

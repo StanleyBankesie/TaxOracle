@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="my-own-background min-h-[300px] mb-0">
-      <div className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white ">
+      <div className="container text-center mx-auto py-4 px-6 md:px-20 lg:px-32 text-white mt-10">
         <h1
           className="text-5xl sm:text-6x1 md:text-6x1 inline-block max-w-3x1 font-semibold pt-20"
           data-aos="flip-left"
