@@ -29,7 +29,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-20 flex flex-col justify-center mt-10 md:mx2.5">
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-20 flex flex-col justify-center mt-10 md:mx-2.5">
           <div>
             <img src={briefcase} alt="" className="w-full size-35 h-full" />
           </div>
