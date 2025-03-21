@@ -53,7 +53,7 @@ const NavbarComp = () => {
       <div
         className={` ${
           showMobileMenu ? "fixed w-full" : "h-0 w-0"
-        } right-0 top-0 bottom-0 overflow-hidden bg-white transition-all md:hidden lg:hidden`}
+        } right-0 top-0 bottom-0 overflow-hidden bg-gradient-to-tr from-cyan-900 to-emerald-900  transition-all md:hidden lg:hidden`}
       >
         <div className="flex justify-end p-6 cursor-pointer">
           <img
@@ -63,7 +63,7 @@ const NavbarComp = () => {
             alt=""
           />
         </div>
-        <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium">
+        <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium text-white">
           <a
             onClick={() => setMobileMenu(false)}
             href="#Header"
