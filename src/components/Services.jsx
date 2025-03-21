@@ -11,27 +11,27 @@ const Services = () => {
       <div className="text-cyan-900 text-center font-bold text-3xl">
         Our Services
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-5 mt-5 ">
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-2.5 flex flex-col justify-center hover:border-b-8 hover:border-green-700">
+      <div className="grid grid-cols-1 md:grid-cols-5 ">
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-20 md:mx-2.5 flex flex-col justify-center hover:border-b-8 hover:border-green-700 mt-10">
           <div>
-            <img src={chart1} alt="" className="size-35 w-full" />
+            <img src={chart1} alt="" className="size-35 w-full h-full " />
           </div>
           <div>
             <p>Tax Planning & Advisory</p>
           </div>
         </div>
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-2.5 flex flex-col justify-center">
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-20 md:mx-2.5 flex flex-col justify-center mt-10">
           <div>
-            <img src={bank} alt="" className="w-full size-35" />
+            <img src={bank} alt="" className="w-full h-full size-35" />
           </div>
           <div>
             <p className="text-center">Payroll Processing</p>
           </div>
         </div>
 
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-2.5 flex flex-col justify-center">
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-20 flex flex-col justify-center mt-10 md:mx2.5">
           <div>
-            <img src={briefcase} alt="" className="w-full size-35" />
+            <img src={briefcase} alt="" className="w-full size-35 h-full" />
           </div>
           <div>
             <p className="text-center">Company & Business Registration</p>
