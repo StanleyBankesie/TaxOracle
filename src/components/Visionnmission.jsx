@@ -29,20 +29,20 @@ const Visionnmission = () => {
         <div className="bg-white flex">
           <div>
             <button className="px-10 py-20 font-semibold text-cyan-900 hover:bg-cyan-900 hover:text-white">
-              Our Mission
+              About Us
             </button>
           </div>
-          <div className="flex m-0 h-90vw bg-cover">
+          <div className="flex m-0 h-90vw">
             <img src={man2} alt="" className="m-0 object-cover" />
           </div>
         </div>
-        <div className="bg-white flex rounded">
+        <div className="bg-white flex">
           <div>
             <button className="px-10 py-20 font-semibold text-cyan-900 hover:bg-cyan-900 hover:text-white">
-              Our Vision
+              About Us
             </button>
           </div>
-          <div className="flex m-0 h-90vw rounded">
+          <div className="flex m-0 h-90vw">
             <img src={woman1} alt="" className="m-0 object-cover" />
           </div>
         </div>
