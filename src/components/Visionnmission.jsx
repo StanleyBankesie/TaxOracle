@@ -6,11 +6,11 @@ import brand from "../assets/brand_img.jpg";
 const Visionnmission = () => {
   return (
     <div className="min-h-[400px] vision px-5 md:px-16">
-      <div className="flex flex-row justify-between items-center gap-10">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-10">
         <h1 className="font-bold text-teal-400 text-3xl mt-5 justify-between text-start">
           Our goal is to protect your financial asset and to make it grow.
         </h1>
-        <h3 className="text-white text-2xl mt-5 w-250">
+        <h3 className="text-white text-2xl mt-5 ">
           It doesn’t matter whether you’re just starting out, We know what’s
           required to create a win-win relationship for you…
         </h3>

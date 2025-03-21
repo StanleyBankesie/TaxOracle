@@ -12,13 +12,13 @@ const Hero = () => {
         >
           Your One Stop For all your Tax needs
         </h1>
-        <div className="space-x-6 mt-16 ">
+        <div className="space-x-6 mt-16 py-5 flex flex-col items-center">
           <button className="border border-white px-8 py-3 rounded">
             Book an Appointment
           </button>
           <a
             href="#Contact"
-            className="bg-gradient-to-tr from-cyan-950 to-lime-800 px-8 py-3 rounded border-1 hover:bg-gray-700"
+            className="bg-gradient-to-tr from-cyan-950 to-lime-800 px-8 py-3 rounded border-1 hover:bg-gray-700 my-5"
           >
             Contact Us
           </a>

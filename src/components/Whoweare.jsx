@@ -5,10 +5,10 @@ import { TbAccessPoint } from "react-icons/tb";
 const Whoweare = () => {
   return (
     <div className="flex flex-col md:flex-row min-h-[500px] justify-between gap-15 m-10">
-      <div className="my-10 ml-5 m-5 w-50vw">
+      <div className=" ml-5 m-5 w-50vw">
         <img src={who} alt="" className="" />
       </div>
-      <div className="my-10 mx-0 w-50vw">
+      <div className="my-3 mx-0 w-50vw">
         <h1 className="font-bold text-cyan-900 text-2xl">
           We are Professional Tax Accountants, Tax Advisors and Management
           Consultants

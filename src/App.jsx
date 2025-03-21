@@ -10,6 +10,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import NavbarComp from "./components/NavbarComp";
+import ServicesPage from "./pages/ServicesPage";
 
 const App = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/Services" element={<ServicesPage />} />
       </Routes>
     </>
   );
