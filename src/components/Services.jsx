@@ -5,6 +5,10 @@ import briefcase from "../assets/briefcase.png";
 import gold from "../assets/gold.png";
 import calculator from "../assets/calculator.png";
 import tax from "../assets/tax.png";
+import balance from "../assets/balance.png";
+import analysis from "../assets/analysis.png";
+import business from "../assets/business.png";
+import growth from "../assets/growth.png";
 
 const Services = () => {
   return (
@@ -54,7 +58,7 @@ const Services = () => {
             <p className="text-center">Tax Audit Representation</p>
           </div>
         </div>
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-10">
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-5">
           <div>
             <img src={tax} alt="" />
           </div>
@@ -62,10 +66,34 @@ const Services = () => {
             <p className="text-center">Tax Compliance </p>
           </div>
         </div>
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-2.5 mt-5 h-60 md-5"></div>
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-2.5 mt-5 h-60 md-5"></div>
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-2.5 mt-5 h-60 md-5"></div>
-        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-2.5 mt-5 h-60 md-5"></div>
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-5">
+          <div>
+            <img src={balance} alt="" />
+          </div>
+          <div>
+            <p></p>
+          </div>
+        </div>
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-5">
+          <div>
+            <img src={analysis} alt="" />
+          </div>
+          <div>
+            <p></p>
+          </div>
+        </div>
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-5">
+          <div>
+            <img src={business} alt="" />
+          </div>
+          <div></div>
+        </div>
+        <div className="bg-white rounded p-8 shadow-lg gap-5 mx-18 md:mx-2.5 justify-center flex flex-col mt-5">
+          <div>
+            <img src={growth} alt="" />
+          </div>
+          <div></div>
+        </div>
       </div>
       <div className="mt-10 flex justify-center text-center">
         <button className="bg-cyan-950 rounded-2xl px-3 py-2 shadow-lg text-white hover:bg-cyan-700">

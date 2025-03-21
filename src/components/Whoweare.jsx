@@ -17,7 +17,7 @@ const Whoweare = () => {
           Our team consists of highly qualified Tax Consultants and Accountants.
           At Tax Oracle, we provide:
         </p>
-        <div className="mt-7">
+        <div className="mt-5">
           <ul>
             <li className="flex mt-5 text-cyan-900 text-4xl font-bold my-10">
               <TbAccessPoint size={25} className="mr-3" />
